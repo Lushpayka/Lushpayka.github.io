@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAVE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-logo">
+                <a href="/index.html"><img src="image/aave-logo.png" alt=""></a>
+            </div>
+            <div class="header-info">
+                <div class="header-nav">
+                    <div class="lang">
+                        <span>English</span>
+                        <img src="image/dropdawn.svg" alt="">
+                        <div class="submenu">
+                            <ul>
+                                <li>
+                                    <img src="image/English.png" alt="">
+                                    <span>English</span>
+                                </li>
+                                <li>
+                                    <img src="image/Espanol.png" alt="">
+                                    <span>Español</span>
+                                </li>
+                                <li>
+                                    <img src="image/Franch.png" alt="">
+                                    <span>Français</span>
+                                </li>
+                                <li>
+                                    <img src="image/ital.png" alt="">
+                                    <span>Italiano</span>
+                                </li>
+                                <li>
+                                    <img src="image/china.png" alt="">
+                                    <span>中文</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="header-button"><a href="#">Explore the App</a></button>
+            </div>
+        </div>
+        <div class="header-nav">
+            <ul class="nav-list">
+                <li>
+                    <a class="nav-link" href="">Aave protocol</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="developers.html">Developers</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="security.html">Security</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="Tokens.html">aTokens</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="bounty.html">Bug Bounty</a>
+                </li>
+            </ul>
+            <ul class="nav-list__second">
+                <li>
+                    <a class="nav-link" href="flash.html">Flash loans</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Rate switching</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="aavenomics.html">Aavenomics</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="ecoSystem.html">Ecosystem</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Whitepaper</a>
+                </li>
+            </ul>
+            <ul class="nav-list__third">
+                <li>
+                    <a class="nav-link" href="Careers.html">Careers</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="Branding.html">Branding</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Blog</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">FAQ</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav-list__fourth">
+                <li>
+                    <a class="nav-link" href="Terms.html">Terms of use</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Cookie policy</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Privacy policy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="main">
+            <div class="container">
+                <h2 class="main-title">The best way <br/>to borrow against<br/> most liquid assets.</h2>
+                <p class="main-text">Aave is an open source and non-custodial liquidity<br/> protocol for earning interest on deposits and <br/>borrowing assets.</p>
+                <button class="main-button__blue"><a href="#">Make a Deposit</a></button>
+                <button class="main-button__red"><a href="#">Borrow a Capital</a></button>
+            </div>
+        </section>
+        <section class="total">
+            <div class="container">
+              <div class="total-inner">
+                <h2 class="total-title">The total amount of funds on the platform</h2>
+                <p class="money">$ 3,266,970,471.97</p>
+                <button class="total-button">
+                    <span>
+                        <img src="image/github-white.png" alt="">
+                        <a href="">Protocol on GitHub</a>
+                    </span>
+                </button>
+              </div>
+            </div>
+        </section>
+        <section class="assets">
+            <div class="container">
+               <div class="assets-inner">
+                    <h2 class="assets-title">Available assets</h2>
+                    <div class="toggle-button-cover">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+               </div>
+               <div class="assets-token">
+                   <div class="token-items">
+                       <div class="item-info grey">
+                           <div class="info-name">
+                               <span>Assets</span>
+                           </div>
+                           <div class="market">
+                               <span>Market size</span>
+                           </div>
+                           <div class="total-borrowed">
+                               <span>Total borrowed</span>
+                           </div>
+                           <div class="deposit-apy">
+                               <span>Deposit APY</span>
+                           </div>
+                           <div class="variable-borrow">
+                               <span class="main-info">Variable</span>
+                               <span class="description-info">Borrow APR</span>
+                           </div>
+                           <div class="variable-borrow">
+                            <span class="main-info">Stable</span>
+                            <span class="description-info">Borrow APR</span>
+                        </div>
+                       </div>
+                       <div class="token-item">
+                           <div class="name">
+                               <img src="image/item-1.png" alt="">
+                               <span>Curve DAO Token</span>
+                               <span class="add-name">(CRV)</span>
+                           </div>
+                           <div class="price">
+                               <span>$ 398.32K</span>
+                           </div>
+                           <div class="price">
+                               <span>$ 778.07K</span>
+                           </div>
+                           <div class="deposit">
+                               <span class="main-deposit">25.60%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                           </div>
+                           <div class="variable">
+                               <span class="main-variable">33.14%</span>
+                               <span class="description">Past 30D Avg. 10.69%</span>
+                           </div>
+                           <div class="stable">
+                               <span>25.60%</span>
+                           </div>
+                           <div class="buttons">
+                               <button class="deposit"><a href="">Deposit</a></button>
+                               <button class="borrow"><a href="">Borrow</a></button>
+                           </div>
+                       </div>
+                       <div class="token-item grey">
+                        <div class="name">
+                            <img src="image/item-2.png" alt="">
+                            <span>Curve DAO Token</span>
+                            <span class="add-name">(CRV)</span>
+                        </div>
+                        <div class="price">
+                            <span>$ 398.32K</span>
+                        </div>
+                        <div class="price">
+                            <span>$ 778.07K</span>
+                        </div>
+                        <div class="deposit">
+                            <span class="main-deposit">25.60%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                        </div>
+                        <div class="variable">
+                            <span class="main-variable">33.14%</span>
+                            <span class="description">Past 30D Avg. 10.69%</span>
+                        </div>
+                        <div class="stable">
+                            <span>25.60%</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="deposit"><a href="">Deposit</a></button>
+                            <button class="borrow"><a href="">Borrow</a></button>
+                        </div>
+                        </div>
+                        <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-3.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-4.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-5.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-6.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-7.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-8.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-9.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-10.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-11.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-12.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-13.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-14.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-15.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-16.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-17.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-18.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-19.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-20.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                         <div class="token-item">
+                            <div class="name">
+                                <img src="image/item-21.png" alt="">
+                                <span>Curve DAO Token</span>
+                                <span class="add-name">(CRV)</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 398.32K</span>
+                            </div>
+                            <div class="price">
+                                <span>$ 778.07K</span>
+                            </div>
+                            <div class="deposit">
+                                <span class="main-deposit">25.60%</span>
+                                 <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="variable">
+                                <span class="main-variable">33.14%</span>
+                                <span class="description">Past 30D Avg. 10.69%</span>
+                            </div>
+                            <div class="stable">
+                                <span>25.60%</span>
+                            </div>
+                            <div class="buttons">
+                                <button class="deposit"><a href="">Deposit</a></button>
+                                <button class="borrow"><a href="">Borrow</a></button>
+                            </div>
+                        </div>
+                        <div class="token-item grey">
+                         <div class="name">
+                             <img src="image/item-22.png" alt="">
+                             <span>Curve DAO Token</span>
+                             <span class="add-name">(CRV)</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 398.32K</span>
+                         </div>
+                         <div class="price">
+                             <span>$ 778.07K</span>
+                         </div>
+                         <div class="deposit">
+                             <span class="main-deposit">25.60%</span>
+                              <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="variable">
+                             <span class="main-variable">33.14%</span>
+                             <span class="description">Past 30D Avg. 10.69%</span>
+                         </div>
+                         <div class="stable">
+                             <span>25.60%</span>
+                         </div>
+                         <div class="buttons">
+                             <button class="deposit"><a href="">Deposit</a></button>
+                             <button class="borrow"><a href="">Borrow</a></button>
+                         </div>
+                         </div>
+                   </div>
+               </div>
+            </div>
+        </section>
+        <section class="stakeholders">
+            <div class="container">
+                <h2 class="stake-title">Stakeholders</h2>
+                <p class="stake-discription">These stakeholders actively contribute as part of the community <br/>to the Aave Protocol and its governance.</p>
+                <div class="stake-items">
+                    <div class="stake-item">
+                        <img src="image/stakeholder-001.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-002.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-003.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-004.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-005.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-006.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-007.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-008.png" alt="">
+                    </div>
+                    <div class="stake-item">
+                        <img src="image/stakeholder-009.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-stay">
+            <div class="container">
+                <h2 class="stay-title">Stay in touch!</h2>
+                <p class="stay-description">Only interesting news about cryptocurrency.</p>
+                <form action="/">
+                    <input class="search" type="text" placeholder="Enter e-mail address..">
+                    <button class="stay-button"><a href="">Subscribe</a></button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <div class="container">
+        <div class="footer-inner">
+            <nav class="footer-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="nav-link">Aave protocol</a>
+                    </li>
+                    <li>
+                        <a href="flash.html" class="nav-link">Flash loans</a>
+                    </li>
+                    <li>
+                        <a href="Careers.html" class="nav-link">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="image/discord-blue.png" alt="">
+                            <span>Discord</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li>
+                        <a href="developers.html" class="nav-link">Developers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Rate switching</a>
+                    </li>
+                    <li>
+                        <a href="Branding.html" class="nav-link">Branding</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="image/github-blue.png" alt="">
+                            <span>GitHub</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li>
+                        <a href="security.html" class="nav-link">Security</a>
+                    </li>
+                    <li>
+                        <a href="aavenomics.html" class="nav-link">Aavenomics</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="image/twitter-blue.png" alt="">
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li>
+                        <a href="Tokens.html" class="nav-link">aTokens</a>
+                    </li>
+                    <li>
+                        <a href="ecoSystem.html" class="nav-link">Ecosystem</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="image/instagram-blue.png" alt="">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li>
+                        <a href="bounty.html" class="nav-link">Bug Bounty</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Whitepaper</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="image/telegram-blue.png" alt="">
+                            <span>Telegram</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer-back">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="rights">
+                    <span>Aave 2021 © All rights reserved</span>
+                </div>
+                <nav class="back-nav">
+                    <ul class="back-list">
+                        <li>
+                            <a href="Terms.html" class="back-link">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="#" class="back-link">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="back-link">Cookie policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
