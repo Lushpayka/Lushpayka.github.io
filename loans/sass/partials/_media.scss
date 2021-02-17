@@ -1,0 +1,127 @@
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    max-width: 840px;
+    .header-inner {
+      .header-title {
+        .title {
+          font-size: 42px;
+        }
+      }
+    }
+    .info {
+      .info-condition {
+        .benefit {
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+      .info-img {
+        width: 350px;
+      }
+    }
+  }
+  .main {
+    margin-top: 25px;
+    .container {
+      .main-subtitle {
+        font-size: 14px;
+        text-align: center;
+      }
+      .items {
+        margin-top: 30px;
+        .item {
+          margin-bottom: 20px;
+          .item-sum {
+            span {
+              font-size: 12px;
+            }
+          }
+          .item-rate {
+            span {
+              font-size: 14px;
+            }
+          }
+          .item-age {
+            span {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 375px) and (max-width: 1023px) {
+  .container {
+    max-width: 300px;
+    .header-inner {
+      .header-title {
+        .title {
+          font-size: 22px;
+        }
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .info-condition {
+        .benefit {
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+      .info-img {
+        img {
+          width: 450px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .main {
+    .container {
+      .main-title {
+        font-size: 22px;
+      }
+      .main-subtitle {
+        display: inline-block;
+        text-align: center;
+        font-size: 10px;
+      }
+      .items {
+        justify-content: center;
+        .item {
+          width: 90%;
+          .item-sum {
+            span {
+              font-size: 12px;
+            }
+          }
+          .item-rate {
+            span {
+              font-size: 12px;
+            }
+          }
+          .item-age {
+            span {
+              font-size: 12px;
+            }
+          }
+          .item-text {
+            span {
+              font-size: 12px;
+            }
+          }
+          .item-button {
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

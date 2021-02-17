@@ -1,0 +1,225 @@
+/* HEADER*/
+header {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding: 35px 0;
+  .header-inner {
+    .logo {
+      .header-logo {
+        img {
+        }
+      }
+    }
+    .header-title {
+      text-align: center;
+      .title {
+        font-family: $Sans;
+        font-weight: 900;
+        font-size: 52px;
+        color: $mainCol;
+        letter-spacing: 2px;
+      }
+    }
+    .bottom-border {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      span {
+        width: 30%;
+        height: 2px;
+        border: 1px solid $mainCol;
+        border-radius: 50%;
+        background-color: $mainCol;
+      }
+    }
+  }
+  .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    .info-condition {
+      .benefit {
+        margin-bottom: 25px;
+        position: relative;
+        span {
+          font-family: $Sans;
+          font-size: 24px;
+          font-weight: 400;
+          color: $mainCol;
+          margin-left: 35px;
+          &:before {
+            content: "";
+            position: absolute;
+            width: 24px;
+            height: 18px;
+            left: 0;
+            top: 0px;
+            background: url(/images/ok.svg);
+          }
+        }
+      }
+    }
+    .info-img {
+      img {
+        width: 600px;
+        height: 228px;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+/* MAIN*/
+
+.main {
+  margin-top: 50px;
+  padding: 20px 0;
+  .main-title {
+    font-family: $Sans;
+    color: $mainCol;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .main-subtitle {
+    font-family: $Sans;
+    color: $mainCol;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .bottom-border {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    @include borderBottom;
+  }
+  .items {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item {
+      width: 30%;
+      border: 1px solid #ebedec;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 40px;
+      @include boxShadow;
+      &-img {
+        a {
+          img {
+            width: 500px;
+            height: auto;
+          }
+        }
+      }
+      .border-bottom {
+        border-bottom: 1px solid #b2b3b2;
+        margin-bottom: 10px;
+      }
+      &-sum {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 15px;
+        @include itemSpan;
+      }
+      &-rate {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 15px;
+        @include itemSpan;
+      }
+      &-age {
+        display: flex;
+        align-items: center;
+        margin: 0 0 20px 15px;
+        @include itemSpan;
+      }
+      &-text {
+        text-align: center;
+        min-width: 200px;
+        span {
+          display: block;
+          font-family: $Sans;
+          color: $mainCol;
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 10px;
+        }
+      }
+      &-button {
+        margin: 15px 20px;
+        padding: 15px 0;
+        border: none;
+        border-radius: 8px;
+        background-color: $mainCol;
+        @include boxShadow;
+        &:hover {
+          background-color: brown;
+        }
+        a {
+          font-family: $Sans;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+/* Section footer*/
+.footer {
+  text-align: center;
+  padding: 100px 0;
+  .title {
+    font-family: $Sans;
+    color: $mainCol;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    font-family: $Sans;
+    color: darkgray;
+    font-weight: 40;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .circs {
+    .circs-title {
+      @include title;
+    }
+    .circs-text {
+      @include text;
+    }
+  }
+  .example {
+    &-title {
+      @include title;
+    }
+    &-text {
+      @include text;
+    }
+  }
+  .effects {
+    &-title {
+      @include title;
+    }
+    &-text {
+      @include text;
+    }
+  }
+  .information {
+    &-title {
+      @include title;
+    }
+    &-text {
+      @include text;
+    }
+  }
+}
