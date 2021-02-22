@@ -18,4 +18,9 @@ for (let i = 0; i < acc.length; i++) {
   });
 };
 
-document.body.style.overflow = 'hidden';
+    
+let hamburger = document.querySelector('.menu__btn');
+let body = document.querySelector("body");
+hamburger.addEventListener('click', function(){
+  body.classList.toggle("lock");
+});
