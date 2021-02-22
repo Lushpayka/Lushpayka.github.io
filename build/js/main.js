@@ -18,3 +18,4 @@ for (let i = 0; i < acc.length; i++) {
   });
 };
 
+document.body.style.overflow = 'hidden';
